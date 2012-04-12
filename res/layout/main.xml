@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView android:id="@+id/scrollView1"
+    			android:layout_width="fill_parent"
+   				 android:layout_height="fill_parent"
+   				 xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    
+
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/app_name"
+    android:textSize="25dip"
+    android:textStyle="bold"
+    android:layout_marginTop="10dip"
+    android:gravity="center"
+    />
+<EditText
+	android:layout_height="wrap_content"
+	android:id="@+id/searchTerm"
+	android:hint="Search"
+	android:layout_width="match_parent"
+	android:layout_marginTop="20dip"
+	android:layout_marginLeft="20dip"
+	android:layout_marginRight="20dip"
+	>
+</EditText>
+<Button 
+	android:text="Search for Six Pack" 
+	android:id="@+id/searchButton" 
+	android:layout_width="match_parent" 
+	android:layout_height="wrap_content"
+	android:layout_margin="20dip"
+>
+</Button>
+<TextView 
+	android:text="" 
+	android:id="@+id/results" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content">
+</TextView>
+
+<com.loopj.android.image.SmartImageView
+    android:id="@+id/beerImg0"
+    android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+     />
+<com.loopj.android.image.SmartImageView
+    android:id="@+id/beerImg1"
+    android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+     />
+<com.loopj.android.image.SmartImageView
+    android:id="@+id/beerImg2"
+    android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+     />
+<com.loopj.android.image.SmartImageView
+    android:id="@+id/beerImg3"
+    android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+     />
+<com.loopj.android.image.SmartImageView
+    android:id="@+id/beerImg4"
+    android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+     />
+<com.loopj.android.image.SmartImageView
+    android:id="@+id/beerImg5"
+    android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+     />
+<com.loopj.android.image.SmartImageView
+    android:id="@+id/beerImg6"
+    android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+     />
+<com.loopj.android.image.SmartImageView
+    android:id="@+id/beerImg7"
+    android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+     />
+<com.loopj.android.image.SmartImageView
+    android:id="@+id/beerImg8"
+    android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+     />
+<com.loopj.android.image.SmartImageView
+    android:id="@+id/beerImg9"
+    android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+     />
+
+</LinearLayout>
+</ScrollView>
